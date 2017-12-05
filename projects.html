@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+<html>
+
+<head>
+  <title>Moumita Dey</title>
+  <meta name="description" content="Moumita Dey's personal webpage" />
+  <meta name="keywords" content=" " />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>Moumita Dey</a></h1>
+        <h2>PhD Student, Georgia Tech</h2>
+            <!--<a class="social-icon" style="float:left"> <i class="fa fa-envelope"></i></a>-->
+            <h5 style="color:#B40431; font-size:14px; font-family:century gothic;"/>  <a href="mailto:moumita.md.dey@gmail.com" style="color:#404040">moumita.md.dey@gmail.com</a>  |  <a href="mailto:mdey6@gatech.edu" style="color:#404040">mdey6@gatech.edu</a> </h5>
+        <div id = "img_logo">
+          <img src="images/georgia_tech_logo_top.png" alt="Georgia Tech" height=75px width=auto>
+        </div>
+      </div>    
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li class="selected"><a href="projects.html">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+
+        <h1>Useful Links</h1>
+     
+      </div>      
+      
+      <div id="content">
+
+        <h1>Georgia Tech</h1>
+        <h4>FPGA Systems Design using Verilog</h4>
+        <h6><i>Instructor: Dr. Timothy Brothers, Georgia Tech Research Institute</i></h6>
+        <h6>ECE 8813: Advanced Digital Design with Verilog, Spring 2017</h6>
+        <p><ul>
+        <li>Designed and implemented various FPGA-based system controllers for GPS, VGA-Serial convertor and irrigation systems in Quartus. </li>
+        <li>Implemented image transpose and Sobel operator based edge detection on a grayscale image using an FPGA.</li> </ul>
+
+        </br></br></br>
+        <h4>Polish Expression based Floorplanning : Simulated Annealing</h4>
+        <h6><i>Instructor: Prof. Sung-Kyu Lim, Professor, School of ECE</i></h6>
+        <h6>ECE 6133: Physical Design Automation, Fall 2016</h6>
+        <p><ul>
+        <li>Created a simulator to perform optimized floorplanning on any given list of hard blocks based on a simulated annealing approach minimizing both area and half perimeter wire length. </li>
+        <li>In order to create more room for optimization, the * and + operators in the initial Polish expression were taken randomly. Data structures were created to model the Polish expression and the slicing tree that take into account all internal nodes, including left, right and parent nodes, facilitating fast development of advanced algorithms, and the graphics was created using OpenGL.The cooling rate, initial temperature, cost function and stopping conditions were set based on the saturation observed after multiple runs of simulated annealing. </li> 
+        <li>Apart from the conventional M1, M2 and M3 moves of simulated annealing, an M4 move was introduced to rotate the operand modules at lower temperatures, easing the path to reach the local minima. The Stockmeyer algorithm applied after the simulated annealing had almost no change as the M4 move was either very close or already at the most optimal solution.</li>
+        <li>Overall, it was observed that an average of 65% HPWL reduction, 90% chip area reduction and 80% chip utilization was achieved after testing multiple differently sized circuits on the designed simulator.</li></ul>
+
+        </br></br></br>
+        <h4>Handling C++ STL Libraries</h4>
+        <h6><i>Instructor: Prof. George P. Riley, Professor, School of ECE</i></h6>
+        <h6>ECE 6122: Advanced Programming Techniques, Fall 2016</h6>
+        <p><ul>
+        <li>Implemented 2D image Fourier Transform using MPI and pthreads with barrier.  </li>
+        <li>Using the GMP library, performed RSA encryption, decryption and breaking using Pollard rho algorithm for factorization.</li> 
+        <li>Explored the OpenGL library by creating a rotating icosahedron of varying vertices.</li>
+        <li>Created a custom library identical to the vector STL library containing corresponding functions.</li>
+        <li>Implemented Mandelbrot set using OpenGL for graphics and pthreads for speed improvement with zoom function.</li></ul>
+
+        </br></br></br>
+        <h4>Out-of-order Superscalar Processor using Tomasulo Algorithm </h4>
+        <h6><i>Instructor: Prof. Tom Conte,  Professor, School of ECE</i></h6>
+        <h6>ECE 6100: Advanced Computer Architecture, Spring 2016</h6>
+        <p><ul>
+        <li>Designed a 5-stage pipeline structure with Fetch, Dispatch, Scheduling, Execute and State Update. </li>
+        <li>Implemented two exception handling schemes: ROB with bypass and Checkpoint Repair. </li>
+        <li>Experimented successfully on multiple setups. </li>
+
+        </br></br></br>
+        <h4>Approximation on On-Chip Networks for Mitigation of Memory and Bandwidth Walls</h4>
+        <h6><i>Instructor: Prof. Tushar Krishna, Assistant Professor, School of ECE</i></h6>
+        <h6>ECE 8823: Interconnection Networks, Spring 2016</h6>
+        <p><ul>
+        <li>Developed a novel approach to solve the tradeoff problem of limited off-chip bandwidth and long access latency in CMPs by implementing approximation on on-chip networks.</li>
+        <li>Based on Rollback-Free Value Prediction approximation technique, which manipulates safe-to-approximate loads in LLC misses.</li>
+        <li>Here, safe-to-approximate loads are manipulated by the approximator both at the network interface and in a router using a drop rate parameter, which decides the fate of a traversing flit – drop or continue.</li>
+        <li>Achieved up to 10% power efficiency and 50% latency improvement for an 8x8 mesh topology at a cost of 80% accuracy with a negligible area overhead.</li></ul>    
+
+        </br></br></br>
+
+        <h4>SRAM Memory System and Arithmetic Unit</h4>
+        <h6><i>Instructor: Prof. Saibal Mukhopadhyay, Professor, School of ECE</i></h6>
+        <h6>ECE 6130: Advanced VLSI Systems, Fall 2015</h6>
+        <p><ul>
+        <li>Designed a 50 nm technology based adder system interfaced with 16x32 SRAM array to perform sequential reads and accumulation.</li>
+        <li>Achieved full functionality in post-layout simulation and compared its performance against pre-layout simulation.</li> 
+        <li>The post-layout design with its extracted parasitics achieved a total power consumption of 470 uW with an SRAM array area efficiency of 63.37% when operated on a nominal supply voltage of 800 mV and frequency of 1 GHz.</li>
+        <li>In comparison with other teams, our design had capabilities of working at frequencies upto 2.93 GHz even at nominal voltage.</li></ul>    
+
+        </br></br></br>
+      </div>
+
+       
+      <div id="content">
+
+        <h1>VES Institute of Technolgy</h1>
+      </div>
+      <div class="sidebar">
+
+        <h5>Project Demo<iframe width=200px height=150px src="https://www.youtube.com/embed/ftGNE3rXwQI" frameborder="0" allowfullscreen></iframe></h5>
+        <h5>On-field Demo<iframe width=200px height=150px src="https://www.youtube.com/embed/Ux3pjuXfrpw" frameborder="0" allowfullscreen></iframe></h5>
+
+      </div> 
+
+      <div id="content">
+        <h4>An Innovative Approach to Location based Services and Traffic Management System</h4>
+        <h6><i>Instructor: Mr. Hardik Shah, Assistant Professor, VES Institute of Technology</i></h6>
+        <h6>B.E. Final Year Project, 2014 - 2015</h6>
+        <p><ul>
+        <li>Built a positioning and navigation system based on the communication between the RF transmitters present on the road and the RF receiver present in the vehicle without using the Internet or GPS, based on offline maps.</li>
+        <li>Worked on TI's ARM Cortex M4 Tiva controller and CC2530 SoC for RF communication.</li>
+        <li>Developed touch screen GUI and incorporated features such as emergency services and vehicle tracking.</li>
+        <li>Implemented the system throughout the college campus. </li></ul>
+        </br></br></br></br></br></br></br></br>
+      </div>  
+
+     <div class="sidebar">
+        <h5>Project Demo<iframe width="200" height="150" src="https://www.youtube.com/embed/ZGs2-nnhLTY" frameborder="0" allowfullscreen></iframe>
+      </div> 
+
+      <div id="content">       
+        <h4>Kindle for the Blind</h4>
+        <h6><i>Mentor: Mr. Hardik Shah, Assistant Professor, VES Institute of Technology</i></h6>
+        <h6>Texas Instruments Innovation Challenge, India Analog Design Contest 2014</h6>
+        <p><ul>
+        <li>Funded by Texas Instruments India (out of 1754 proposals from 321 colleges across India). Competed as semi-finalists in the competition.</li>
+        <li>Built a TI's MSP430F5659 microcontroller based device to take voice input from a visually impaired user of the eBook name and display the eBook on the prototypic LED matrix display by loading it from the flash drive containing the eBooks stored in a .txt format.</li> </ul>      
+      </div>
+
+    </div>
+
+    <div class="footer-social-icons">
+      
+      <ul class="social-icons">
+          <li><a href="https://www.facebook.com/moumita.md.dey" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/Moumita_MD?lang=en" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/moumitadeymd/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/mo_dey/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://github.gatech.edu/mdey6?tab=repositories" class="social-icon"> <i class="fa fa-github"></i></a></li>                              
+      </ul>
+    </div>   
+    
+    <div id="footer">
+      <h6> Last updated on August 23, 2017 </h6>
+      
+    </div>
+  </div>
+</body>
+</html>
